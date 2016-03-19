@@ -98,7 +98,7 @@ LANGUAGES = {name: Language(name) for name in Language.NAMES}
 SCRIPTS = {name: Script(name) for name in Script.NAMES}
 
 WRITING_SYSTEMS = {
-    'Sanskrit_in_Devanagari': WritingSystem(
+    'Sanskrit in Devanagari': WritingSystem(
         LANGUAGES['Sanskrit'], SCRIPTS['Devanagari'],
         exemplar_characters = {
             'main': '''
@@ -189,7 +189,7 @@ WRITING_SYSTEMS = {
             ''',
         },
     ),
-    'Punjabi_in_Gurmukhi': WritingSystem(
+    'Punjabi in Gurmukhi': WritingSystem(
         LANGUAGES['Punjabi'], SCRIPTS['Gurmukhi'],
         exemplar_characters = {
             'main': '''
